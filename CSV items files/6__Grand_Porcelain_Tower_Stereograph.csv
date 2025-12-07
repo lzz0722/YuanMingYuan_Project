@@ -1,0 +1,14 @@
+Subject,Property,Object
+Grand Porcelain Tower Stereograph,rdf:type,Stereograph photograph
+Grand Porcelain Tower Stereograph,dcterms:creator,Unknown photographer
+Grand Porcelain Tower Stereograph,dcterms:medium,Stereograph
+Grand Porcelain Tower Stereograph,dcterms:created,1900
+Grand Porcelain Tower Stereograph,dcterms:publisher,Underwood & Underwood
+Grand Porcelain Tower Stereograph,dcterms:temporal,Boxer Rebellion
+Grand Porcelain Tower Stereograph,foaf:depicts,Yuan Ming Yuan
+Grand Porcelain Tower Stereograph,edm:currentLocation,Library of Congress
+Grand Porcelain Tower Stereograph,dcterms:relation,Longevity Mountain (Stereograph)
+Grand Porcelain Tower Stereograph,dcterms:relation,Boxer Protocol
+Grand Porcelain Tower Stereograph,schema:publisher,http://viaf.org/viaf/152515104
+Grand Porcelain Tower Stereograph,edm:isShownAt,https://www.loc.gov/pictures/
+Grand Porcelain Tower Stereograph,foaf:depicts,http://sws.geonames.org/1816670/

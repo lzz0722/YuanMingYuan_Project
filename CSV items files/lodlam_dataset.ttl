@@ -1,0 +1,158 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix ex: <http://example.org/lodlam/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema1: <http://schema.org/> .
+
+ex:Admonitions_Scroll a ex:Handscroll_painting ;
+    dcterms:created "5th-7th Century AD" ;
+    dcterms:creator ex:Gu_Kaizhi ;
+    dcterms:relation ex:Boxer_Protocol,
+        ex:Throne ;
+    dcterms:temporal "Tang Dynasty" ;
+    schema1:creator <http://viaf.org/viaf/47024609> ;
+    crm:P12i_was_present_at ex:Boxer_Rebellion ;
+    crm:P24_transferred_title_from ex:British_Forces ;
+    crm:P43_has_dimension "348.5 cm × 24.8 cm" ;
+    crm:P45_consists_of ex:Ink_color,
+        ex:Silk ;
+    edm:currentLocation ex:British_Museum ;
+    edm:formerLocation ex:Yuan_Ming_Yuan ;
+    edm:isShownAt <http://www.britishmuseum.org/collection> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1191093> .
+
+ex:Summer_Palace_Grounds_Photograph a "Photograph" ;
+    dcterms:created "1860" ;
+    dcterms:creator ex:Felice_Beato ;
+    dcterms:medium "Albumen print" ;
+    dcterms:relation ex:Brush_Holder,
+        ex:Throne ;
+    dcterms:temporal ex:Second_Opium_War ;
+    schema1:creator <http://viaf.org/viaf/22950785> ;
+    edm:currentLocation ex:Victoria__Albert_Museum ;
+    edm:isShownAt <https://collections.vam.ac.uk/> ;
+    foaf:depicts ex:Yuan_Ming_Yuan,
+        <http://sws.geonames.org/1816670/> .
+
+ex:Beautiful_Winding_Corridor a "Stereograph photograph" ;
+    dcterms:created "1901" ;
+    dcterms:creator ex:James_Ricalton ;
+    dcterms:medium ex:Stereograph ;
+    dcterms:relation ex:Grand_Porcelain_Tower_Stereograph,
+        ex:Longevity_Mountain_Stereograph ;
+    dcterms:temporal ex:Boxer_Rebellion ;
+    schema1:creator <http://viaf.org/viaf/13114602> ;
+    edm:currentLocation ex:Library_of_Congress ;
+    edm:isShownAt <https://www.loc.gov/pictures/> ;
+    foaf:depicts ex:Yuan_Ming_Yuan,
+        <http://sws.geonames.org/1816670/> .
+
+ex:Boxer_Protocol a ex:Text_document ;
+    dc:language ex:Multiple_Chinese_English_French ;
+    dcterms:created "1901-09-07" ;
+    dcterms:relation ex:Grand_Porcelain_Tower_Stereograph,
+        ex:Throne,
+        "Admonitions Scroll" ;
+    crm:P11_had_participant ex:Qing_Government,
+        "Eight-Nation Alliance" ;
+    crm:P17_was_motivated_by ex:Boxer_Rebellion ;
+    crm:P70_documents <http://dbpedia.org/resource/Boxer_Rebellion> ;
+    edm:isShownAt <https://en.wikisource.org/wiki/Boxer_Protocol> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q234188> .
+
+ex:Brush_Holder a ex:Decorative_art_object ;
+    dcterms:created "1736-1795" ;
+    dcterms:creator ex:Imperial_workshop ;
+    dcterms:relation ex:Jewelry,
+        ex:Longevity_Mountain_Carving ;
+    dcterms:subject <http://id.loc.gov/authorities/subjects/sh85069821> ;
+    dcterms:temporal "Qianlong Period" ;
+    crm:P12i_was_present_at ex:Second_Opium_War ;
+    crm:P24_transferred_title_from ex:F.O._Matthiessen ;
+    crm:P43_has_dimension "Height approximately 10-15 cm" ;
+    crm:P45_consists_of "Jade" ;
+    crm:P53_has_former_or_current_location <http://sws.geonames.org/1816670/> ;
+    edm:currentLocation ex:Metropolitan_Museum_of_Art ;
+    edm:formerLocation ex:Yuan_Ming_Yuan ;
+    edm:isShownAt <https://www.metmuseum.org/art/collection/> .
+
+ex:Grand_Porcelain_Tower_Stereograph a "Stereograph photograph" ;
+    dcterms:created "1900" ;
+    dcterms:creator "Unknown photographer" ;
+    dcterms:medium ex:Stereograph ;
+    dcterms:publisher ex:Underwood__Underwood ;
+    dcterms:relation ex:Boxer_Protocol,
+        ex:Longevity_Mountain_Stereograph ;
+    dcterms:temporal ex:Boxer_Rebellion ;
+    schema1:publisher <http://viaf.org/viaf/152515104> ;
+    edm:currentLocation ex:Library_of_Congress ;
+    edm:isShownAt <https://www.loc.gov/pictures/> ;
+    foaf:depicts ex:Yuan_Ming_Yuan,
+        <http://sws.geonames.org/1816670/> .
+
+ex:Jewelry a ex:Jewelry ;
+    dcterms:created "1736-1795" ;
+    dcterms:creator ex:Imperial_workshop ;
+    dcterms:relation ex:Brush_Holder,
+        ex:Longevity_Mountain_Carving ;
+    dcterms:temporal "Qianlong Period" ;
+    schema1:material <http://dbpedia.org/resource/Jadeite> ;
+    crm:P12i_was_present_at ex:Second_Opium_War ;
+    crm:P24_transferred_title_from ex:Heber_R._Bishop ;
+    crm:P45_consists_of "Emerald green jadeite" ;
+    crm:P53_has_former_or_current_location <http://sws.geonames.org/1816670/> ;
+    edm:currentLocation ex:Metropolitan_Museum_of_Art ;
+    edm:formerLocation ex:Yuan_Ming_Yuan ;
+    edm:isShownAt <https://www.metmuseum.org/art/collection/> .
+
+ex:Longevity_Mountain_Carving a "Jade carving" ;
+    dcterms:created "1736-1795" ;
+    dcterms:creator ex:Imperial_workshop ;
+    dcterms:relation ex:Brush_Holder,
+        ex:Jewelry,
+        ex:Longevity_Mountain_Stereograph ;
+    dcterms:temporal "Qianlong Period" ;
+    schema1:material <http://dbpedia.org/resource/Nephrite> ;
+    crm:P12i_was_present_at ex:Second_Opium_War ;
+    crm:P24_transferred_title_from ex:Heber_R._Bishop ;
+    crm:P43_has_dimension "10.3 cm" ;
+    crm:P45_consists_of "Golden-emerald nephrite" ;
+    crm:P53_has_former_or_current_location <http://sws.geonames.org/1816670/> ;
+    edm:currentLocation ex:Metropolitan_Museum_of_Art ;
+    edm:formerLocation ex:Yuan_Ming_Yuan ;
+    edm:isShownAt <https://www.metmuseum.org/art/collection/search/39666> .
+
+ex:Longevity_Mountain_Stereograph a "Stereograph photograph" ;
+    dcterms:created "1900" ;
+    dcterms:creator ex:James_Ricalton ;
+    dcterms:medium ex:Stereograph ;
+    dcterms:relation ex:Beautiful_Winding_Corridor,
+        ex:Grand_Porcelain_Tower_Stereograph,
+        ex:Longevity_Mountain_Carving ;
+    dcterms:temporal ex:Boxer_Rebellion ;
+    schema1:creator <http://viaf.org/viaf/13114602> ;
+    edm:currentLocation ex:Library_of_Congress ;
+    edm:isShownAt <https://www.loc.gov/pictures/> ;
+    foaf:depicts ex:Yuan_Ming_Yuan,
+        <http://sws.geonames.org/1816670/> .
+
+ex:Throne a ex:Furniture ;
+    dcterms:created "1775-1780" ;
+    dcterms:creator ex:Imperial_workshop ;
+    dcterms:relation ex:Boxer_Protocol,
+        "Admonitions Scroll",
+        "Summer Palace Grounds Photograph" ;
+    dcterms:temporal "Qianlong Period" ;
+    crm:P12i_was_present_at ex:Boxer_Rebellion ;
+    crm:P24_transferred_title_from ex:Russian_Troops ;
+    crm:P45_consists_of ex:Carved_polychrome_lacquer,
+        ex:Wood ;
+    crm:P53_has_former_or_current_location <http://sws.geonames.org/1816670/> ;
+    edm:currentLocation ex:Victoria__Albert_Museum ;
+    edm:formerLocation ex:Yuan_Ming_Yuan ;
+    edm:isShownAt <https://collections.vam.ac.uk/item/O73633/throne/> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q28738923> .
+

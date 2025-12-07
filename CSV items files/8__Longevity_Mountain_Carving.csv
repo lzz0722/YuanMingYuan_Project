@@ -1,0 +1,17 @@
+Subject,Property,Object
+Longevity Mountain (Carving),rdf:type,Jade carving
+Longevity Mountain (Carving),dcterms:creator,Imperial workshop
+Longevity Mountain (Carving),dcterms:created,1736-1795
+Longevity Mountain (Carving),dcterms:temporal,Qianlong Period
+Longevity Mountain (Carving),crm:P45_consists_of,Golden-emerald nephrite
+Longevity Mountain (Carving),crm:P24_transferred_title_from,Heber R. Bishop
+Longevity Mountain (Carving),crm:P12i_was_present_at,Second Opium War
+Longevity Mountain (Carving),edm:formerLocation,Yuan Ming Yuan
+Longevity Mountain (Carving),edm:currentLocation,Metropolitan Museum of Art
+Longevity Mountain (Carving),crm:P43_has_dimension,10.3 cm
+Longevity Mountain (Carving),dcterms:relation,Jewelry
+Longevity Mountain (Carving),dcterms:relation,Brush Holder
+Longevity Mountain (Carving),dcterms:relation,Longevity Mountain (Stereograph)
+Longevity Mountain (Carving),edm:isShownAt,https://www.metmuseum.org/art/collection/search/39666
+Longevity Mountain (Carving),crm:P53_has_former_or_current_location,http://sws.geonames.org/1816670/
+Longevity Mountain (Carving),schema:material,http://dbpedia.org/resource/Nephrite

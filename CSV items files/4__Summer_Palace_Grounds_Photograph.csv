@@ -1,0 +1,13 @@
+Subject,Property,Object
+Summer Palace Grounds Photograph,rdf:type,Photograph
+Summer Palace Grounds Photograph,dcterms:creator,Felice Beato
+Summer Palace Grounds Photograph,dcterms:created,1860
+Summer Palace Grounds Photograph,dcterms:medium,Albumen print
+Summer Palace Grounds Photograph,foaf:depicts,Yuan Ming Yuan
+Summer Palace Grounds Photograph,edm:currentLocation,Victoria & Albert Museum
+Summer Palace Grounds Photograph,dcterms:temporal,Second Opium War
+Summer Palace Grounds Photograph,dcterms:relation,Throne
+Summer Palace Grounds Photograph,dcterms:relation,Brush Holder
+Summer Palace Grounds Photograph,schema:creator,http://viaf.org/viaf/22950785
+Summer Palace Grounds Photograph,edm:isShownAt,https://collections.vam.ac.uk/
+Summer Palace Grounds Photograph,foaf:depicts,http://sws.geonames.org/1816670/

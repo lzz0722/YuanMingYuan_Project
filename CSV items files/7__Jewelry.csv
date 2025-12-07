@@ -1,0 +1,15 @@
+Subject,Property,Object
+Jewelry,rdf:type,Jewelry
+Jewelry,dcterms:creator,Imperial workshop
+Jewelry,dcterms:created,1736-1795
+Jewelry,dcterms:temporal,Qianlong Period
+Jewelry,crm:P45_consists_of,Emerald green jadeite
+Jewelry,crm:P24_transferred_title_from,Heber R. Bishop
+Jewelry,crm:P12i_was_present_at,Second Opium War
+Jewelry,edm:formerLocation,Yuan Ming Yuan
+Jewelry,edm:currentLocation,Metropolitan Museum of Art
+Jewelry,dcterms:relation,Brush Holder
+Jewelry,dcterms:relation,Longevity Mountain (Carving)
+Jewelry,edm:isShownAt,https://www.metmuseum.org/art/collection/
+Jewelry,crm:P53_has_former_or_current_location,http://sws.geonames.org/1816670/
+Jewelry,schema:material,http://dbpedia.org/resource/Jadeite

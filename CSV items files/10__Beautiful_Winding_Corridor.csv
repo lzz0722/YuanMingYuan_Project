@@ -1,0 +1,13 @@
+Subject,Property,Object
+Beautiful Winding Corridor,rdf:type,Stereograph photograph
+Beautiful Winding Corridor,dcterms:creator,James Ricalton
+Beautiful Winding Corridor,dcterms:created,1901
+Beautiful Winding Corridor,dcterms:medium,Stereograph
+Beautiful Winding Corridor,dcterms:temporal,Boxer Rebellion
+Beautiful Winding Corridor,foaf:depicts,Yuan Ming Yuan
+Beautiful Winding Corridor,edm:currentLocation,Library of Congress
+Beautiful Winding Corridor,dcterms:relation,Longevity Mountain (Stereograph)
+Beautiful Winding Corridor,dcterms:relation,Grand Porcelain Tower Stereograph
+Beautiful Winding Corridor,schema:creator,http://viaf.org/viaf/13114602
+Beautiful Winding Corridor,edm:isShownAt,https://www.loc.gov/pictures/
+Beautiful Winding Corridor,foaf:depicts,http://sws.geonames.org/1816670/

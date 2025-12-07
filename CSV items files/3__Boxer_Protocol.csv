@@ -1,0 +1,13 @@
+Subject,Property,Object
+Boxer Protocol,rdf:type,Text document
+Boxer Protocol,crm:P11_had_participant,Eight-Nation Alliance
+Boxer Protocol,crm:P11_had_participant,Qing Government
+Boxer Protocol,dcterms:created,1901-09-07
+Boxer Protocol,dc:language,Multiple (Chinese English French)
+Boxer Protocol,crm:P17_was_motivated_by,Boxer Rebellion
+Boxer Protocol,dcterms:relation,Admonitions Scroll
+Boxer Protocol,dcterms:relation,Throne
+Boxer Protocol,dcterms:relation,Grand Porcelain Tower Stereograph
+Boxer Protocol,owl:sameAs,http://www.wikidata.org/entity/Q234188
+Boxer Protocol,crm:P70_documents,http://dbpedia.org/resource/Boxer_Rebellion
+Boxer Protocol,edm:isShownAt,https://en.wikisource.org/wiki/Boxer_Protocol

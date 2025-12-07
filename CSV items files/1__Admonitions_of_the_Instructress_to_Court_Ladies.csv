@@ -1,0 +1,17 @@
+Subject,Property,Object
+Admonitions Scroll,rdf:type,Handscroll painting
+Admonitions Scroll,dcterms:creator,Gu Kaizhi
+Admonitions Scroll,dcterms:created,5th-7th Century AD
+Admonitions Scroll,dcterms:temporal,Tang Dynasty
+Admonitions Scroll,crm:P45_consists_of,Ink color
+Admonitions Scroll,crm:P45_consists_of,Silk
+Admonitions Scroll,crm:P43_has_dimension,348.5 cm × 24.8 cm
+Admonitions Scroll,crm:P24_transferred_title_from,British Forces
+Admonitions Scroll,edm:currentLocation,British Museum
+Admonitions Scroll,crm:P12i_was_present_at,Boxer Rebellion
+Admonitions Scroll,edm:formerLocation,Yuan Ming Yuan
+Admonitions Scroll,dcterms:relation,Boxer Protocol
+Admonitions Scroll,dcterms:relation,Throne
+Admonitions Scroll,owl:sameAs,http://www.wikidata.org/entity/Q1191093
+Admonitions Scroll,schema:creator,http://viaf.org/viaf/47024609
+Admonitions Scroll,edm:isShownAt,http://www.britishmuseum.org/collection

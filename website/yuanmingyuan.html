@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuanmingyuan Digital Heritage Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">圆明园</div>
+            <ul class="nav-menu">
+                <li>HOME</li>
+                <li>Project Overview</li>
+                <li>KNOWLEDGE ORGANIZATION</li>
+                <li>KNOWLEDGE REPRESENTATION</li>
+                <li>TEXT PROCESSING</li>
+                <li>THE TEAM</li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Title Section -->
+    <section class="title-section" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/yuanmingyuan.jpg');">
+        <div class="title-content">
+            <h1>Yuan Ming Yuan</h1>
+            <p>Cultural Destruction and Artifact Dispersal during the Eight-Nation Alliance Period (1900-1901)</p>
+        </div>
+    </section>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Project Overview -->
+        <section class="project-overview">
+            <h2>Project Overview</h2>
+            
+            <p>This project focuses on documenting the cultural heritage destruction and artifact dispersal of Yuanmingyuan (Old Summer Palace) during the Eight-Nation Alliance invasion of 1900-1901. Using LODLAM (Linked Open Data in Libraries, Archives and Museums) methodologies, we create structured data and digital representations of ten selected cultural heritage items related to this historical event, examining their current locations, provenance, and historical significance.</p>
+
+            <h3>Historical Background</h3>
+            <p>Yuanmingyuan, known as the "Garden of Gardens," was one of the most magnificent imperial garden complexes in Chinese history. Built over more than a century during the Qing Dynasty, it covered over 3.5 square kilometers and housed countless treasures including rare books, paintings, porcelain, bronze artifacts, and architectural marvels that combined Chinese and Western artistic traditions.</p>
+
+            <p>The palace complex had already suffered significant damage during the Second Opium War in 1860 when British and French forces looted and burned much of the site. However, the events of 1900 during the Eight-Nation Alliance invasion marked another devastating chapter in its destruction. The alliance forces, comprising troops from Britain, France, Germany, Russia, the United States, Japan, Italy, and Austria-Hungary, occupied Beijing following the Boxer Rebellion. During this period, systematic looting continued, and many remaining artifacts were removed from Yuanmingyuan and surrounding imperial collections.</p>
+
+            <p>The 1900 invasion resulted in the further dispersal of Chinese cultural heritage across multiple nations. Unlike the earlier destruction, this period saw more organized removal of artifacts, with objects eventually finding their way into museums, private collections, and auction houses worldwide. The scale of this cultural dispersal continues to impact discussions about cultural heritage, repatriation, and the legacy of colonial collecting practices.</p>
+
+            <h3>Project Focus and Methodology</h3>
+            <p>Our research concentrates on ten specific items that document and relate to Yuanmingyuan (Old Summer Palace) during two critical periods of cultural heritage disruption: the Second Opium War (1856-1860) and the Eight-Nation Alliance invasion (1900-1901). These items encompass a diverse range of materials including looted artifacts, historical photographs, archival documents, and treaties that collectively illustrate the scope of destruction, cultural dispersal, and historical documentation of this period.
+            <p>The selected items serve multiple documentary functions: some are cultural artifacts that were removed from imperial collections during the conflicts; others are photographic records that capture the physical state of Yuanmingyuan and related sites during and after these events; and still others are historical documents, such as the Boxer Protocol, that formalized the political and economic consequences of these conflicts.
+            <p>The project employs digital humanities methods to create structured metadata for each item, trace their provenance where possible, and analyze the institutions that currently hold them. We utilize standard metadata schemas including Dublin Core, SPECTRUM, CCO, MODS, and TEI encoding to ensure interoperability with existing cultural heritage databases.</p>
+            <p>Through this focused approach, we aim to demonstrate how digital technologies can be used to document and analyze episodes of cultural heritage destruction, while creating accessible resources for education and research about this important period in Chinese and world history.</p>
+        </section>
+
+        <!-- Items Section -->
+        <section class="items-section">
+            <h2>Selected Heritage Items</h2>
+            <div class="items-grid">
+                <!-- Item 1: Admonitions Scroll -->
+                <div class="item-card">
+                    <div class="item-image">
+                        <img src="images/item1.jpg" alt="Admonitions of the Instructress to the Court Ladies">
+                        <div class="item-number">1</div>
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-title">Admonitions of the Instructress to Court Ladies</h3>
+                        <p class="item-date">5th-7th Century AD (Tang Copy)</p>
+                        <p class="item-description">Handscroll painting attributed to Gu Kaizhi style. Ink and color on silk, 348.5cm long. From Qianlong Emperor's collection, looted during Boxer Rebellion (1900). Now at British Museum.</p>
+                        <a href="https://www.britishmuseum.org/exhibitions/admonitions-instructress-court-ladies" class="view-detail-btn" target="_blank">View Detail</a>
+                    </div>
+                </div>
+
+                <!-- Item 2: Jade Brush Holder -->
+                <div class="item-card">
+                    <div class="item-image">
+                        <img src="images/item2.jpg" alt="Qing Dynasty Jade Brush Holder">
+                        <div class="item-number">2</div>
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-title">Brush Holder</h3>
+                        <p class="item-date">Qianlong Period (1736-1795)</p>
+                        <p class="item-description">18th century jade brush holder from the F.O. Matthiessen Collection. Height 15.9cm, Width 17.5cm. Donated to Metropolitan Museum of Art in 1903.</p>
+                        <a href="https://www.metmuseum.org/art/collection/search/44216" class="view-detail-btn" target="_blank">View Detail</a>
+                    </div>
+                </div>
+
+                <!-- Item 3: Boxer Protocol -->
+                <div class="item-card">
+                    <div class="item-image">
+                        <img src="images/item3.jpg" alt="Boxer Protocol Document">
+                        <div class="item-number">3</div>
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-title">Boxer Protocol</h3>
+                        <p class="item-date">September 7, 1901</p>
+                        <p class="item-description">Full-text international treaty between Eight-Nation Alliance and Qing China. Contains 12 articles and annexes establishing reparations framework following the Boxer Rebellion.</p>
+                        <a href="https://en.wikisource.org/wiki/United_States_Treaty_Series/Volume_1/Boxer_Protocol" class="view-detail-btn" target="_blank">View Detail</a>
+                    </div>
+                </div>
+
+                <!-- Item 4: Felice Beato Photograph -->
+                <div class="item-card">
+                    <div class="item-image">
+                        <img src="images/item4.jpg" alt="Summer Palace Grounds by Felice Beato">
+                        <div class="item-number">4</div>
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-title">Summer Palace Grounds Photograph</h3>
+                        <p class="item-date">October 6-18, 1860</p>
+                        <p class="item-description">Albumen print by Felice Beato documenting the Summer Palace grounds near Beijing. Part of Second Opium War documentation, now at Victoria & Albert Museum.</p>
+                        <a href="https://collections.vam.ac.uk/item/O1096280/grounds-of-the-summer-palace-photograph-beato-felice/" class="view-detail-btn" target="_blank">View Detail</a>
+                    </div>
+                </div>
+
+                <!-- Item 5: Imperial Throne -->
+                <div class="item-card">
+                    <div class="item-image">
+                        <img src="images/item5.jpg" alt="Chinese Imperial Throne">
+                        <div class="item-number">5</div>
+                    </div>  
+                    <div class="item-info">
+                        <h3 class="item-title">Throne</h3>
+                        <p class="item-date">1775-1780</p>
+                        <p class="item-description">Carved polychrome lacquer throne with five-clawed dragon motifs. Looted from Tuanhe Palace by Russian troops in 1900 during Eight-Nation Alliance occupation. Now at V&A Museum.</p>
+                        <a href="https://collections.vam.ac.uk/item/O18895/throne-unknown/" class="view-detail-btn" target="_blank">View Detail</a>
+                    </div>
+                </div>
+
+                <!-- Item 6: Grand Porcelain Tower Stereograph -->
+                <div class="item-card">
+                    <div class="item-image">
+                        <img src="images/item6.jpg" alt="Grand Porcelain Tower Stereograph">
+                        <div class="item-number">6</div>
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-title">Grand Porcelain Tower Stereograph</h3>
+                        <p class="item-date">1901 (Photographed 1900)</p>
+                        <p class="item-description">Stereograph by James Ricalton showing the Grand Porcelain Tower of the Imperial Summer Palace. Published by Underwood & Underwood, now at Library of Congress.</p>
+                        <a href="https://www.loc.gov/item/2019633834/" class="view-detail-btn" target="_blank">View Detail</a>
+                    </div>
+                </div>
+
+                <!-- Item 7: Jadeite Jewelry Set -->
+                <div class="item-card">
+                    <div class="item-image">
+                        <img src="images/item7.jpg" alt="Qing Dynasty Jadeite Jewelry Set">
+                        <div class="item-number">7</div>
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-title">Jewelry</h3>
+                        <p class="item-date">Qianlong Period (1736-1795)</p>
+                        <p class="item-description">Emerald green jadeite set including pendant, earrings, and bracelet. Part of Heber R. Bishop Collection from Yuanmingyuan, acquired during 1860 expedition. Gift to MMA 1902.</p>
+                        <a href="https://www.metmuseum.org/art/collection/search/44026" class="view-detail-btn" target="_blank">View Detail</a>
+                    </div>
+                </div>
+
+                <!-- Item 8: Longevity Mountain Carving -->
+                <div class="item-card">
+                    <div class="item-image">
+                        <img src="images/item8.jpg" alt="Jade Longevity Mountain">
+                        <div class="item-number">8</div>
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-title">Longevity Mountain (Carving)</h3>
+                        <p class="item-date">Qianlong Period (1736-1795)</p>
+                        <p class="item-description">Golden-emerald nephrite mountain carving from Imperial Summer Palace. Height 10.3cm. Part of Bishop's Yuanmingyuan collection acquired during 1860. Gift to MMA 1902.</p>
+                        <a href="https://www.metmuseum.org/art/collection/search/44267" class="view-detail-btn" target="_blank">View Detail</a>
+                    </div>
+                </div>
+
+                <!-- Item 9: Longevity Mountain Stereograph -->
+                <div class="item-card">
+                    <div class="item-image">
+                        <img src="images/item9.png" alt="Longevity Mountain Stereograph">
+                        <div class="item-number">9</div>
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-title">Longevity Mountain (Stereograph)</h3>
+                        <p class="item-date">Photographed 1900</p>
+                        <p class="item-description">Stereograph by James Ricalton showing Summer Palace from Lake Kung-Ming-Hu island. Documents Boxer uprising period. Part of "China through the stereoscope" series.</p>
+                        <a href="https://www.loc.gov/item/2019633833/" class="view-detail-btn" target="_blank">View Detail</a>
+                    </div>
+                </div>
+
+                <!-- Item 10: Winding Corridor Stereograph -->
+                <div class="item-card">
+                    <div class="item-image">
+                        <img src="images/item10.jpg" alt="Summer Palace Winding Corridor">
+                        <div class="item-number">10</div>
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-title">Beautiful Winding Corridor</h3>
+                        <p class="item-date">1901</p>
+                        <p class="item-description">Stereograph photograph documenting architectural features of the Summer Palace corridor in Beijing. Mount size 9x18cm. Part of Library of Congress collection, no publication restrictions.</p>
+                        <a href="https://www.loc.gov/pictures/item/2019633845/" class="view-detail-btn" target="_blank">View Detail</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Metadata Analysis Section -->
+        <section class="metadata-section">
+            <h2>Metadata Analysis</h2>
+            
+            <!-- 介绍文字 -->
+            <div class="metadata-intro">
+                <p>The next step involves revisiting the institutions and providers of the items to better analyze the metadata used for their description. Some institutions clearly stated the standards they applied while others followed internal standards that were not specified. For those without a clear declaration, we applied either the most common standard generally used by that type of institution or a more generic metadata standard deemed suitable for the provider.</p>
+            </div>
+
+            <!-- 第一个表格：Items and Standards -->
+            <div class="table-container">
+                <h3>Items and Metadata Standards</h3>
+                <table class="metadata-table">
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Item Type</th>
+                            <th>Provider</th>
+                            <th>Metadata Standard</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Admonitions of the Instructress to Court Ladies</td>
+                            <td>Handscroll Painting</td>
+                            <td>British Museum</td>
+                            <td>SPECTRUM</td>
+                        </tr>
+                        <tr>
+                            <td>Qing Dynasty Jade Brush Holder</td>
+                            <td>Decorative Art Object</td>
+                            <td>Metropolitan Museum of Art</td>
+                            <td>CCO</td>
+                        </tr>
+                        <tr>
+                            <td>Boxer Protocol (Xinchou Treaty)</td>
+                            <td>Text Document</td>
+                            <td>Wikisource</td>
+                            <td>Dublin Core</td>
+                        </tr>
+                        <tr>
+                            <td>Summer Palace Grounds Photograph</td>
+                            <td>Photograph</td>
+                            <td>Victoria & Albert Museum</td>
+                            <td>SPECTRUM</td>
+                        </tr>
+                        <tr>
+                            <td>Chinese Imperial Throne</td>
+                            <td>Furniture/Artifact</td>
+                            <td>Victoria & Albert Museum</td>
+                            <td>SPECTRUM</td>
+                        </tr>
+                        <tr>
+                            <td>Grand Porcelain Tower Stereograph</td>
+                            <td>Stereograph</td>
+                            <td>Library of Congress</td>
+                            <td>MODS</td>
+                        </tr>
+                        <tr>
+                            <td>Jadeite Jewelry Set</td>
+                            <td>Decorative Arts</td>
+                            <td>Metropolitan Museum of Art</td>
+                            <td>CCO</td>
+                        </tr>
+                        <tr>
+                            <td>Longevity Mountain (Carving)</td>
+                            <td>Jade Carving</td>
+                            <td>Metropolitan Museum of Art</td>
+                            <td>CCO</td>
+                        </tr>
+                        <tr>
+                            <td>Longevity Mountain (Stereograph)</td>
+                            <td>Stereograph</td>
+                            <td>Library of Congress</td>
+                            <td>MODS</td>
+                        </tr>
+                        <tr>
+                            <td>Beautiful Winding Corridor</td>
+                            <td>Stereograph</td>
+                            <td>Library of Congress</td>
+                            <td>MODS</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Metadata Alignment Section -->
+            <div class="alignment-section">
+                <h3>Metadata Alignment</h3>
+                <p class="alignment-intro">Once defined the different standards, the next step was to compare (if possible) how those different standards expressed similar concepts.</p>
+                
+                <!-- WHO Section -->
+                <div class="alignment-category">
+                    <h4>WHO - Creator/Contributor Information</h4>
+                    <table class="alignment-table">
+                        <thead>
+                            <tr>
+                                <th>Property</th>
+                                <th>SPECTRUM</th>
+                                <th>CCO</th>
+                                <th>Dublin Core</th>
+                                <th>MODS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="property-name">Creator</td>
+                                <td>Maker</td>
+                                <td>Creator/Display Creator</td>
+                                <td>dc:creator</td>
+                                <td>mods:name[role="creator"]</td>
+                            </tr>
+                            <tr>
+                                <td class="property-name">Contributor</td>
+                                <td>Associated person</td>
+                                <td>Contributor</td>
+                                <td>dc:contributor</td>
+                                <td>mods:name[role="contributor"]</td>
+                            </tr>
+                            <tr>
+                                <td class="property-name">Publisher</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>dc:publisher</td>
+                                <td>mods:publisher</td>
+                            </tr>
+                            <tr>
+                                <td class="property-name">Photographer</td>
+                                <td>Maker (with role)</td>
+                                <td>Creator (with role)</td>
+                                <td>dc:creator</td>
+                                <td>mods:name[role="photographer"]</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- WHAT Section -->
+                <div class="alignment-category">
+                    <h4>WHAT - Content/Type Information</h4>
+                    <table class="alignment-table">
+                        <thead>
+                            <tr>
+                                <th>Property</th>
+                                <th>SPECTRUM</th>
+                                <th>CCO</th>
+                                <th>Dublin Core</th>
+                                <th>MODS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="property-name">Title</td>
+                                <td>Object name</td>
+                                <td>Title/Display Title</td>
+                                <td>dc:title</td>
+                                <td>mods:titleInfo/title</td>
+                            </tr>
+                            <tr>
+                                <td class="property-name">Type</td>
+                                <td>Object category</td>
+                                <td>Work Type</td>
+                                <td>dc:type</td>
+                                <td>mods:typeOfResource</td>
+                            </tr>
+                            <tr>
+                                <td class="property-name">Description</td>
+                                <td>Description</td>
+                                <td>Description</td>
+                                <td>dc:description</td>
+                                <td>mods:abstract</td>
+                            </tr>
+                            <tr>
+                                <td class="property-name">Subject</td>
+                                <td>Subject/Theme</td>
+                                <td>Subject/Display Subject</td>
+                                <td>dc:subject</td>
+                                <td>mods:subject</td>
+                            </tr>
+                            <tr>
+                                <td class="property-name">Format</td>
+                                <td>Technique</td>
+                                <td>Materials/Techniques</td>
+                                <td>dc:format</td>
+                                <td>mods:physicalDescription</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- WHEN Section -->
+                <div class="alignment-category">
+                    <h4>WHEN - Temporal Information</h4>
+                    <table class="alignment-table">
+                        <thead>
+                            <tr>
+                                <th>Property</th>
+                                <th>SPECTRUM</th>
+                                <th>CCO</th>
+                                <th>Dublin Core</th>
+                                <th>MODS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="property-name">Date Created</td>
+                                <td>Production date</td>
+                                <td>Creation Date/Display Date</td>
+                                <td>dc:date</td>
+                                <td>mods:originInfo/dateCreated</td>
+                            </tr>
+                            <tr>
+                                <td class="property-name">Date Modified</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>dc:date</td>
+                                <td>mods:originInfo/dateModified</td>
+                            </tr>
+                            <tr>
+                                <td class="property-name">Period</td>
+                                <td>Production period</td>
+                                <td>Style/Period</td>
+                                <td>dc:coverage</td>
+                                <td>mods:originInfo/dateOther</td>
+                            </tr>
+                            <tr>
+                                <td class="property-name">Dynasty/Era</td>
+                                <td>Production period</td>
+                                <td>Cultural Context</td>
+                                <td>dc:coverage</td>
+                                <td>mods:subject/temporal</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- WHERE Section -->
+                <div class="alignment-category">
+                    <h4>WHERE - Spatial Information</h4>
+                    <table class="alignment-table">
+                        <thead>
+                            <tr>
+                                <th>Property</th>
+                                <th>SPECTRUM</th>
+                                <th>CCO</th>
+                                <th>Dublin Core</th>
+                                <th>MODS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="property-name">Place of Creation</td>
+                                <td>Production place</td>
+                                <td>Creation Location</td>
+                                <td>dc:coverage</td>
+                                <td>mods:originInfo/place</td>
+                            </tr>
+                            <tr>
+                                <td class="property-name">Current Location</td>
+                                <td>Current location</td>
+                                <td>Current Repository</td>
+                                <td>-</td>
+                                <td>mods:location/physicalLocation</td>
+                            </tr>
+                            <tr>
+                                <td class="property-name">Geographic Coverage</td>
+                                <td>Associated place</td>
+                                <td>Geographic Location</td>
+                                <td>dc:coverage</td>
+                                <td>mods:subject/geographic</td>
+                            </tr>
+                            <tr>
+                                <td class="property-name">Repository</td>
+                                <td>Current owner</td>
+                                <td>Repository/Location</td>
+                                <td>dc:publisher</td>
+                                <td>mods:location/physicalLocation</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Knowledge Models Section -->
+        <section class="models-section">
+            <h2>Knowledge Representation  </h2>
+            
+            <div class="models-intro">
+                <p>The following diagrams illustrate the theoretical and conceptual models developed for this project. The theoretical model presents the natural language description of relationships between entities, while the conceptual model formalizes these relationships using established ontologies and vocabularies from the LODLAM domain.</p>
+            </div>
+
+            <div class="models-container">
+                <!-- Theoretical Model -->
+                <div class="model-wrapper">
+                    <h3>Theoretical Model</h3>
+                    <p class="model-description">Natural language representation of the domain entities and their relationships, capturing the complex network of cultural heritage items, institutions, and historical events.</p>
+                    <div class="model-image-container">
+                        <img src="images/theoretical_model.png" alt="Theoretical Model" class="model-image" onclick="openModal('images/theoretical_model.png', 'Theoretical Model')">
+                        <button class="view-fullsize-btn" onclick="openModal('images/theoretical_model.png', 'Theoretical Model')">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M15 3h6v6M14 10l6.5-6.5M9 21H3v-6M10 14l-6.5 6.5"/>
+                            </svg>
+                            View Full Size
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Conceptual Model -->
+                <div class="model-wrapper">
+                    <h3>Conceptual Model</h3>
+                    <p class="model-description">Formal representation using RDF/RDFS/OWL vocabularies and established ontologies including Dublin Core, EDM, FRBR, and domain-specific schemas.</p>
+                    <div class="model-image-container">
+                        <img src="images/conceptual_model.png" alt="Conceptual Model" class="model-image" onclick="openModal('images/conceptual_model.png', 'Conceptual Model')">
+                        <button class="view-fullsize-btn" onclick="openModal('images/conceptual_model.png', 'Conceptual Model')">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M15 3h6v6M14 10l6.5-6.5M9 21H3v-6M10 14l-6.5 6.5"/>
+                            </svg>
+                            View Full Size
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <!-- Modal for Full-size Images -->
+    <div id="imageModal" class="modal" onclick="closeModal()">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
+
+    <!-- JavaScript for Modal -->
+    <script>
+        function openModal(imageSrc, imageAlt) {
+            var modal = document.getElementById("imageModal");
+            var modalImg = document.getElementById("modalImage");
+            var captionText = document.getElementById("caption");
+            
+            modal.style.display = "block";
+            modalImg.src = imageSrc;
+            captionText.innerHTML = imageAlt;
+        }
+
+        function closeModal() {
+            var modal = document.getElementById("imageModal");
+            modal.style.display = "none";
+        }
+
+        // Close modal with Escape key
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeModal();
+            }
+        });
+    </script>
+</body>
+</html>

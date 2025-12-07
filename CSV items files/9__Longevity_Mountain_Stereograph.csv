@@ -1,0 +1,14 @@
+Subject,Property,Object
+Longevity Mountain (Stereograph),rdf:type,Stereograph photograph
+Longevity Mountain (Stereograph),dcterms:created,1900
+Longevity Mountain (Stereograph),dcterms:medium,Stereograph
+Longevity Mountain (Stereograph),dcterms:creator,James Ricalton
+Longevity Mountain (Stereograph),edm:currentLocation,Library of Congress
+Longevity Mountain (Stereograph),foaf:depicts,Yuan Ming Yuan
+Longevity Mountain (Stereograph),dcterms:temporal,Boxer Rebellion
+Longevity Mountain (Stereograph),dcterms:relation,Longevity Mountain (Carving)
+Longevity Mountain (Stereograph),dcterms:relation,Beautiful Winding Corridor
+Longevity Mountain (Stereograph),dcterms:relation,Grand Porcelain Tower Stereograph
+Longevity Mountain (Stereograph),schema:creator,http://viaf.org/viaf/13114602
+Longevity Mountain (Stereograph),edm:isShownAt,https://www.loc.gov/pictures/
+Longevity Mountain (Stereograph),foaf:depicts,http://sws.geonames.org/1816670/
