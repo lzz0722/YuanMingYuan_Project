@@ -523,6 +523,227 @@
             </div>
 
         </section>
+
+        <!-- Knowledge Representation Section -->
+        <section class="knowledge-representation-section">
+            <h2>KNOWLEDGE REPRESENTATION</h2>
+            
+            <div class="kr-intro">
+                <p>This section presents the knowledge representation phase of our project, where we transform heritage item descriptions into structured, machine-readable formats following LODLAM best practices. The workflow consists of five key steps: creating structured CSV data, encoding a full-text document in TEI XML, transforming XML to HTML and RDF formats, and finally producing a unified RDF dataset for the entire collection.</p>
+                <p>All source files, transformation scripts, and outputs are available in our GitHub repository for reproducibility and further research.</p>
+            </div>
+
+            <!-- Step 1: CSV Files Collection -->
+            <div class="kr-step">
+                <div class="kr-step-header">
+                    <span class="kr-step-number">01</span>
+                    <div class="kr-step-title-group">
+                        <h3>Structured Data Collection</h3>
+                        <p class="kr-step-subtitle">CSV Files with RDF Triples</p>
+                    </div>
+                </div>
+                <div class="kr-step-content">
+                    <p class="kr-description">Ten CSV files containing subject-property-object triples for each heritage item, following RDF principles and utilizing standard metadata vocabularies including Dublin Core, CIDOC-CRM, Europeana Data Model, and Schema.org.</p>
+                    
+                    <div class="kr-file-info">
+                        <div class="kr-info-item">
+                            <span class="kr-label">Format:</span>
+                            <span class="kr-value">CSV (UTF-8)</span>
+                        </div>
+                        <div class="kr-info-item">
+                            <span class="kr-label">Files:</span>
+                            <span class="kr-value">10 items</span>
+                        </div>
+                        <div class="kr-info-item">
+                            <span class="kr-label">Total Triples:</span>
+                            <span class="kr-value">~85 triples</span>
+                        </div>
+                    </div>
+
+                    <a href="https://github.com/lzz0722/YuanMingYuan_Project/tree/main/CSV%20items%20files" class="kr-github-btn" target="_blank">
+                        <span class="btn-icon">📊</span>
+                        <span>View CSV Files on GitHub</span>
+                        <span class="btn-arrow">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Step 2: TEI XML Document -->
+            <div class="kr-step">
+                <div class="kr-step-header">
+                    <span class="kr-step-number">02</span>
+                    <div class="kr-step-title-group">
+                        <h3>TEI XML Document</h3>
+                        <p class="kr-step-subtitle">Full-Text with Semantic Markup</p>
+                    </div>
+                </div>
+                <div class="kr-step-content">
+                    <p class="kr-description">Complete transcription of the Imperial Edict of February 13, 1901, related to the Boxer Protocol. The document is encoded using TEI P5 standards with semantic markup for persons, places, organizations, dates, and events.</p>
+                    
+                    <div class="kr-file-info">
+                        <div class="kr-info-item">
+                            <span class="kr-label">Document:</span>
+                            <span class="kr-value">Imperial Edict (1901)</span>
+                        </div>
+                        <div class="kr-info-item">
+                            <span class="kr-label">Standard:</span>
+                            <span class="kr-value">TEI P5</span>
+                        </div>
+                        <div class="kr-info-item">
+                            <span class="kr-label">Lines:</span>
+                            <span class="kr-value">203 lines</span>
+                        </div>
+                    </div>
+
+                    <div class="kr-button-group">
+                        <a href="https://github.com/lzz0722/YuanMingYuan_Project/blob/main/Knowledge%20Representation/boxer_protocol.xml" class="kr-github-btn" target="_blank">
+                            <span class="btn-icon">📜</span>
+                            <span>View TEI XML</span>
+                            <span class="btn-arrow">→</span>
+                        </a>
+                        <a href="https://github.com/lzz0722/YuanMingYuan_Project/blob/main/Knowledge%20Representation/boxer_protocol.html" class="kr-github-btn kr-btn-secondary" target="_blank">
+                            <span class="btn-icon">🌐</span>
+                            <span>View HTML Version</span>
+                            <span class="btn-arrow">→</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 3: XML to HTML Transformation -->
+            <div class="kr-step">
+                <div class="kr-step-header">
+                    <span class="kr-step-number">03</span>
+                    <div class="kr-step-title-group">
+                        <h3>XML to HTML Transformation</h3>
+                        <p class="kr-step-subtitle">Python-based Document Conversion</p>
+                    </div>
+                </div>
+                <div class="kr-step-content">
+                    <p class="kr-description">Python script that converts TEI XML markup into semantic HTML with styled presentation. The transformation preserves semantic annotations (persons, places, organizations) while creating a visually appealing, accessible HTML document.</p>
+                    
+                    <div class="kr-file-info">
+                        <div class="kr-info-item">
+                            <span class="kr-label">Script:</span>
+                            <span class="kr-value">xml_to_html.py</span>
+                        </div>
+                        <div class="kr-info-item">
+                            <span class="kr-label">Library:</span>
+                            <span class="kr-value">lxml</span>
+                        </div>
+                        <div class="kr-info-item">
+                            <span class="kr-label">Output:</span>
+                            <span class="kr-value">boxer_protocol.html</span>
+                        </div>
+                    </div>
+
+                    <a href="https://github.com/lzz0722/YuanMingYuan_Project/blob/main/Knowledge%20Representation/xml_to_html.py" class="kr-github-btn" target="_blank">
+                        <span class="btn-icon">💻</span>
+                        <span>View Python Script</span>
+                        <span class="btn-arrow">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Step 4: TEI XML to RDF Transformation -->
+            <div class="kr-step">
+                <div class="kr-step-header">
+                    <span class="kr-step-number">04</span>
+                    <div class="kr-step-title-group">
+                        <h3>TEI XML to RDF Transformation</h3>
+                        <p class="kr-step-subtitle">Semantic Web Conversion</p>
+                    </div>
+                </div>
+                <div class="kr-step-content">
+                    <p class="kr-description">Python script that extracts structured information from TEI XML and converts it into RDF triples using standard ontologies including FOAF (persons and organizations), Schema.org (events and documents), and CIDOC-CRM (cultural heritage entities).</p>
+                    
+                    <div class="kr-file-info">
+                        <div class="kr-info-item">
+                            <span class="kr-label">Script:</span>
+                            <span class="kr-value">tei_to_rdf.py</span>
+                        </div>
+                        <div class="kr-info-item">
+                            <span class="kr-label">Library:</span>
+                            <span class="kr-value">rdflib</span>
+                        </div>
+                        <div class="kr-info-item">
+                            <span class="kr-label">Ontologies:</span>
+                            <span class="kr-value">FOAF, Schema.org, CRM</span>
+                        </div>
+                    </div>
+
+                    <a href="https://github.com/lzz0722/YuanMingYuan_Project/blob/main/Knowledge%20Representation/tei_to_rdf.py" class="kr-github-btn" target="_blank">
+                        <span class="btn-icon">💻</span>
+                        <span>View Python Script</span>
+                        <span class="btn-arrow">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Step 5: Complete RDF Dataset -->
+            <div class="kr-step">
+                <div class="kr-step-header">
+                    <span class="kr-step-number">05</span>
+                    <div class="kr-step-title-group">
+                        <h3>Complete RDF Dataset</h3>
+                        <p class="kr-step-subtitle">Unified Linked Data Collection</p>
+                    </div>
+                </div>
+                <div class="kr-step-content">
+                    <p class="kr-description">Comprehensive RDF dataset combining all ten heritage items into a unified linked data structure. The dataset is available in multiple serialization formats to ensure compatibility with different RDF tools and applications. Generated using the csv_to_rdf.py script which processes all CSV files according to our conceptual ontology model.</p>
+                    
+                    <div class="kr-file-info">
+                        <div class="kr-info-item">
+                            <span class="kr-label">Script:</span>
+                            <span class="kr-value">csv_to_rdf.py</span>
+                        </div>
+                        <div class="kr-info-item">
+                            <span class="kr-label">Total Triples:</span>
+                            <span class="kr-value">~85 triples</span>
+                        </div>
+                        <div class="kr-info-item">
+                            <span class="kr-label">Formats:</span>
+                            <span class="kr-value">2 serializations</span>
+                        </div>
+                    </div>
+
+                    <div class="kr-rdf-formats">
+                        <h4>Available RDF Serializations:</h4>
+                        <div class="kr-format-grid">
+                            <a href="https://github.com/lzz0722/YuanMingYuan_Project/blob/main/CSV%20items%20files/lodlam_dataset.ttl" class="kr-format-card" target="_blank">
+                                <div class="format-icon">📝</div>
+                                <div class="format-name">Turtle</div>
+                                <div class="format-ext">.ttl</div>
+                            </a>
+                            <a href="https://github.com/lzz0722/YuanMingYuan_Project/blob/main/CSV%20items%20files/lodlam_dataset.rdf" class="kr-format-card" target="_blank">
+                                <div class="format-icon">📄</div>
+                                <div class="format-name">RDF/XML</div>
+                                <div class="format-ext">.rdf</div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <a href="https://github.com/lzz0722/YuanMingYuan_Project/blob/main/CSV%20items%20files/csv_to_rdf.py" class="kr-github-btn" target="_blank">
+                        <span class="btn-icon">💻</span>
+                        <span>View Transformation Script</span>
+                        <span class="btn-arrow">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- GitHub Repository Link -->
+            <div class="kr-repository">
+                <div class="kr-repo-content">
+                    <h3>Complete Project Repository</h3>
+                    <p>Access all project files, documentation, and resources in our GitHub repository.</p>
+                    <a href="https://github.com/lzz0722/YuanMingYuan_Project" class="kr-repo-btn" target="_blank">
+                        <span class="btn-icon">🔗</span>
+                        <span>View Complete Repository on GitHub</span>
+                        <span class="btn-arrow">→</span>
+                    </a>
+                </div>
+            </div>
+        </section>
     </div>
 
     <!-- Modal for Full-size Images -->
