@@ -25,7 +25,7 @@ body {
 
 .nav-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     max-width: 1400px;
     margin: 0 auto;
@@ -53,11 +53,15 @@ body {
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
+}
+
+.nav-menu li a {
     color: #333;
+    text-decoration: none;
     transition: color 0.3s ease;
 }
 
-.nav-menu li:hover {
+.nav-menu li a:hover {
     color: #8b4513;
 }
 
@@ -1008,6 +1012,9 @@ body {
     box-shadow: 0 8px 25px rgba(255,255,255,0.3);
 }
 
+/* ========================================
+   RESPONSIVE DESIGN FOR KNOWLEDGE REPRESENTATION
+   ======================================== */
 
 @media (max-width: 1024px) {
     .kr-format-grid {
@@ -1082,5 +1089,346 @@ body {
 
     .kr-format-card {
         padding: 20px;
+    }
+}
+
+/* ========================================
+   TEAM SECTION STYLES
+   ======================================== */
+
+/* Team Section Container */
+.team-section {
+    background: white;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 5px 30px rgba(0,0,0,0.1);
+    margin-bottom: 80px;
+}
+
+.team-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* Team Introduction */
+.team-intro {
+    max-width: 900px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+.team-intro p {
+    line-height: 1.8;
+    color: #555;
+    font-size: 1.05rem;
+}
+
+/* Team Member Container */
+.team-member-container {
+    max-width: 900px;
+    margin: 0 auto 50px auto;
+}
+
+.team-member-card {
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    transition: box-shadow 0.3s ease;
+}
+
+.team-member-card:hover {
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+}
+
+/* Member Image */
+.member-image-wrapper {
+    flex-shrink: 0;
+}
+
+.member-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 3px solid #8b4513;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Member Info */
+.member-info {
+    flex: 1;
+}
+
+.member-name {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.member-role {
+    font-size: 1.1rem;
+    color: #8b4513;
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.member-description {
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+/* Member Responsibilities */
+.member-responsibilities {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    border-left: 4px solid #8b4513;
+}
+
+.member-responsibilities h4 {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.member-responsibilities ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.member-responsibilities li {
+    padding: 8px 0;
+    padding-left: 25px;
+    position: relative;
+    color: #555;
+    line-height: 1.6;
+}
+
+.member-responsibilities li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #8b4513;
+    font-weight: bold;
+}
+
+/* Member Contact */
+.member-contact {
+    margin-top: 20px;
+}
+
+.contact-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #8b4513;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+.contact-btn:hover {
+    background: #6d360e;
+    transform: translateX(5px);
+    box-shadow: 0 5px 15px rgba(139, 69, 19, 0.3);
+}
+
+/* Simple Team Card Style */
+.team-member-card-simple {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.team-member-card-simple .member-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #8b4513;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+}
+
+.team-member-card-simple .member-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 35px rgba(0,0,0,0.2);
+}
+
+.member-info-simple {
+    margin-top: 25px;
+}
+
+.member-info-simple .member-name {
+    font-size: 2rem;
+    color: #333;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.contact-btn .btn-icon {
+    font-size: 1.1rem;
+}
+
+/* Project Acknowledgment */
+.project-acknowledgment {
+    max-width: 900px;
+    margin: 0 auto;
+    background: linear-gradient(135deg, #f5f1e8 0%, #e8e0d5 100%);
+    padding: 30px 40px;
+    border-radius: 10px;
+    border-left: 5px solid #8b4513;
+}
+
+.project-acknowledgment h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.project-acknowledgment p {
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.project-acknowledgment p:last-child {
+    margin-bottom: 0;
+}
+
+.project-acknowledgment strong {
+    color: #8b4513;
+}
+
+/* ========================================
+   NAVIGATION LINK STYLES
+   ======================================== */
+
+.nav-menu a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    color: #8b4513;
+}
+
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Scroll Padding for Fixed Navbar */
+html {
+    scroll-padding-top: 80px;
+}
+
+@media (max-width: 768px) {
+    .team-section {
+        padding: 40px 30px;
+    }
+
+    .team-member-card {
+        flex-direction: column;
+        padding: 30px;
+        gap: 25px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .team-member-card-simple .member-image {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .member-info-simple .member-name {
+        font-size: 1.6rem;
+    }
+
+    .member-image {
+        width: 180px;
+        height: 180px;
+    }
+
+    .member-description {
+        text-align: center;
+    }
+
+    .member-responsibilities {
+        text-align: left;
+    }
+
+    .project-acknowledgment {
+        padding: 25px 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .team-section h2 {
+        font-size: 2rem;
+    }
+
+    .team-member-card {
+        padding: 20px;
+    }
+    
+    .team-member-card-simple .member-image {
+        width: 180px;
+        height: 180px;
+    }
+    
+    .member-info-simple .member-name {
+        font-size: 1.4rem;
+    }
+
+    .member-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .member-name {
+        font-size: 1.5rem;
+    }
+
+    .member-role {
+        font-size: 1rem;
+    }
+
+    .member-responsibilities {
+        padding: 20px;
+    }
+
+    .member-responsibilities li {
+        font-size: 0.9rem;
+    }
+
+    .project-acknowledgment {
+        padding: 20px;
+    }
+
+    .project-acknowledgment h3 {
+        font-size: 1.3rem;
     }
 }

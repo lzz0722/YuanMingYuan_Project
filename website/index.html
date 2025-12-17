@@ -10,20 +10,19 @@
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <div class="logo">圆明园</div>
             <ul class="nav-menu">
-                <li>HOME</li>
-                <li>Project Overview</li>
-                <li>KNOWLEDGE ORGANIZATION</li>
-                <li>KNOWLEDGE REPRESENTATION</li>
-                <li>TEXT PROCESSING</li>
-                <li>THE TEAM</li>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#project-overview">PROJECT OVERVIEW</a></li>
+                <li><a href="#items-section">HERITAGE ITEMS</a></li>
+                <li><a href="#knowledge-organization">KNOWLEDGE ORGANIZATION</a></li>
+                <li><a href="#knowledge-representation">KNOWLEDGE REPRESENTATION</a></li>
+                <li><a href="#team">THE TEAM</a></li>
             </ul>
         </div>
     </nav>
 
     <!-- Main Title Section -->
-    <section class="title-section" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/yuanmingyuan.jpg');">
+    <section id="home" class="title-section" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/yuanmingyuan.jpg');">
         <div class="title-content">
             <h1>Yuan Ming Yuan</h1>
             <p>Cultural Destruction and Artifact Dispersal during the Eight-Nation Alliance Period (1900-1901)</p>
@@ -33,7 +32,7 @@
     <!-- Main Container -->
     <div class="container">
         <!-- Project Overview -->
-        <section class="project-overview">
+        <section id="project-overview" class="project-overview">
             <h2>Project Overview</h2>
             
             <p>This project focuses on documenting the cultural heritage destruction and artifact dispersal of Yuanmingyuan (Old Summer Palace) during the Eight-Nation Alliance invasion of 1900-1901. Using LODLAM (Linked Open Data in Libraries, Archives and Museums) methodologies, we create structured data and digital representations of ten selected cultural heritage items related to this historical event, examining their current locations, provenance, and historical significance.</p>
@@ -53,7 +52,7 @@
         </section>
 
         <!-- Items Section -->
-        <section class="items-section">
+        <section id="items-section" class="items-section">
             <h2>Selected Heritage Items</h2>
             <div class="items-grid">
                 <!-- Item 1: Admonitions Scroll -->
@@ -483,8 +482,8 @@
         </section>
 
         <!-- Knowledge Models Section -->
-        <section class="models-section">
-            <h2>Knowledge Representation  </h2>
+        <section id="knowledge-organization" class="models-section">
+            <h2>Knowledge Organization</h2>
             
             <div class="models-intro">
                 <p>The following diagrams illustrate the theoretical and conceptual models developed for this project. The theoretical model presents the natural language description of relationships between entities, while the conceptual model formalizes these relationships using established ontologies and vocabularies from the LODLAM domain.</p>
@@ -525,7 +524,7 @@
         </section>
 
         <!-- Knowledge Representation Section -->
-        <section class="knowledge-representation-section">
+        <section id="knowledge-representation" class="knowledge-representation-section">
             <h2>KNOWLEDGE REPRESENTATION</h2>
             
             <div class="kr-intro">
@@ -741,6 +740,22 @@
                         <span>View Complete Repository on GitHub</span>
                         <span class="btn-arrow">→</span>
                     </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section id="team" class="team-section">
+            <h2>THE TEAM</h2>
+
+            <div class="team-member-container">
+                <div class="team-member-card-simple">
+                    <div class="member-image-wrapper">
+                        <img src="images/team.jpg" alt="Zizhe Lin" class="member-image">
+                    </div>
+                    <div class="member-info-simple">
+                        <h3 class="member-name">Zizhe Lin</h3>
+                    </div>
                 </div>
             </div>
         </section>
